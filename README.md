@@ -54,10 +54,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 ### Steps Taken:
 1. **Combined 12 monthly datasets** into a single dataset for streamlined analysis.
 2. Removed duplicates and filtered out invalid entries (e.g., negative trip durations).
-3. Created new columns:
-   - `ride_length`: Trip duration calculated as the difference between `ended_at` and `started_at`.
-   - `day_of_week`: Extracted from the `started_at` timestamp to analyze usage trends by weekday.
-4. Addressed null values:
+3. Addressed null values:
    - Rows with null station names or coordinates were excluded when necessary for station-based analysis.
 
 ---
