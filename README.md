@@ -54,7 +54,10 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 ### Steps Taken:
 1. **Combined 12 monthly datasets** into a single dataset for streamlined analysis.
 2. Removed duplicates and filtered out invalid entries (e.g., negative trip durations).
-3. Addressed null values:
+3. Created new columns:
+   - `ride_length`: Trip duration calculated as the difference between `ended_at` and `started_at`.
+   - `day_of_week`: Extracted from the `started_at` timestamp to analyze usage trends by weekday.
+4. Addressed null values:
    - Rows with null station names or coordinates were excluded when necessary for station-based analysis.
 
 ---
@@ -93,24 +96,32 @@ Key metrics and comparisons between casual riders and members were calculated:
 
 ## Visualizations
 ### 1. Station Count by Rider Type
-![Station Count](station_count.png)
+![Station Count by Rider Type](https://github.com/EXECiiAA/png-files/blob/main/Station%20Count%20by%20Rider%20Type.png)
 - Casual riders utilized more stations, indicating greater variability in their trips.
 
 ### 2. Average Ride Duration
-![Average Ride Duration](average_riding_time.png)
+![Average Ride Duration](https://github.com/EXECiiAA/png-files/blob/main/Average%20Riding%20Time%20by%20Rider%20Type.png)
 - Casual riders' trips lasted nearly twice as long as members' trips.
 
 ### 3. Monthly Usage Trends
-![Monthly Usage Trends](monthly_rider_counts.png)
+![Monthly Usage Trends](https://github.com/EXECiiAA/png-files/blob/main/Monthly%20Rider%20Counts%20by%20Membership%20Type.png)
 - Usage peaked in spring and summer for both groups.
 
 ### 4. Hourly Usage Trends
-![Hourly Usage Trends](hourly_rider_counts.png)
+![Hourly Usage Trends](https://github.com/EXECiiAA/png-files/blob/main/Hourly%20Rider%20Counts%20by%20Membership%20Type.png)
 - Members showed clear commuting patterns, while casual riders were active throughout the day.
 
 ### 5. Rider Type Distribution
-![Rider Distribution](member_vs_casual_pie.png)
+![Rider Distribution](https://github.com/EXECiiAA/png-files/blob/main/Member%20Vs%20Casual%20Rider%20Count.png)
 - Casual riders accounted for a larger proportion of trips.
+
+### 6. Rideable Type Usage by Membership
+![Rideable Type Usage](https://github.com/EXECiiAA/png-files/blob/main/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
+- Both groups preferred electric bikes, while docked bikes were used only by casual riders.
+
+### 7. Trip Start Locations
+![Trip Start Locations](https://github.com/EXECiiAA/png-files/blob/main/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
+- Casual riders often started at recreational locations, while members began near residential or commercial hubs.
 
 ---
 
