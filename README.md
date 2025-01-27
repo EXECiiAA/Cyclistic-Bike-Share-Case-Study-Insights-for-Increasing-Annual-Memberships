@@ -64,7 +64,8 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
    - `ride_length`: Trip duration calculated as the difference between `ended_at` and `started_at`.
    - `day_of_week`: Extracted from the `started_at` timestamp to analyze usage trends by weekday.
 4. Addressed null values:
-   - Rows with null station names or coordinates were excluded when necessary for station-based analysis.
+   - Rows with null `start_station_name` were removed for station-based visualizations, as their inclusion could lead to inaccurate insights.
+   - The null rate for `start_station_name` was much higher for members (549,587 rows) compared to casual riders (326,129 rows), which may impact certain visualizations, particularly those involving station usage or trip start locations.
 5. Current datasets lack unique IDs for individual riders, which limits the ability to analyze returning customers or track long-term usage trends. A suggestion for improvement is to assign **custom unique IDs** to each rider in future datasets. This would allow for better customer segmentation and analysis of customer retention.
 
 ---
@@ -112,6 +113,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 
 ### Station Usage
 - Casual riders used more unique stations (1,549) compared to members (1,455), reflecting dispersed travel patterns.
+- Higher null rates for `start_station_name` among members may slightly skew station-related insights.
 
 ![Station Count by Rider Type](https://github.com/EXECiiAA/png-files/blob/main/Station%20Count%20by%20Rider%20Type.png)
 
@@ -120,6 +122,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 ### Trip Start Locations
 - Casual riders frequently began trips at recreational hotspots such as parks, beaches, and museums.
 - Members started trips near residential and business districts, aligning with commuting behaviors.
+- The higher null rates in member data for `start_station_name` may have reduced the total number of member trips analyzed for this visualization.
 
 ![Trip Start Locations Members Vs. Casual Riders](https://github.com/EXECiiAA/png-files/blob/main/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
 
