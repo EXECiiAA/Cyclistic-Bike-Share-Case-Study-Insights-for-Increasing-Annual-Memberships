@@ -102,31 +102,31 @@ The data was analyzed to uncover differences in how casual riders and annual mem
 
 ## Visualizations
 ### 1. Rider Distribution
-![Member Vs Casual Rider Count](Member%20Vs%20Casual%20Rider%20Count.png)
+![Member Vs Casual Rider Count](png-files/Member%20Vs%20Casual%20Rider%20Count.png)
 - Casual riders accounted for 64% of total trips, offering a significant opportunity for conversion to memberships.
 
 ### 2. Average Ride Duration by Rider Type
-![Average Riding Time by Rider Type](Average%20Riding%20Time%20by%20Rider%20Type.png)
+![Average Riding Time by Rider Type](png-files/Average%20Riding%20Time%20by%20Rider%20Type.png)
 - Casual riders’ trips averaged nearly double the duration of members’ trips, reflecting their leisure-based usage.
 
 ### 3. Monthly Rider Counts by Membership Type
-![Monthly Rider Counts by Membership Type](Monthly%20Rider%20Counts%20by%20Membership%20Type.png)
+![Monthly Rider Counts by Membership Type](png-files/Monthly%20Rider%20Counts%20by%20Membership%20Type.png)
 - Both groups showed peak ridership during spring and summer, with steep declines in winter.
 
 ### 4. Hourly Rider Counts by Membership Type
-![Hourly Rider Counts by Membership Type](Hourly%20Rider%20Counts%20by%20Membership%20Type.png)
+![Hourly Rider Counts by Membership Type](png-files/Hourly%20Rider%20Counts%20by%20Membership%20Type.png)
 - Members were most active during commuting hours, while casual riders peaked midday and on weekends.
 
 ### 5. Station Count by Rider Type
-![Station Count by Rider Type](Station%20Count%20by%20Rider%20Type.png)
+![Station Count by Rider Type](png-files/Station%20Count%20by%20Rider%20Type.png)
 - Casual riders used more unique stations, reflecting their exploratory and dispersed travel behavior.
 
 ### 6. Rideable Type Usage by Membership and Rider Count
-![Rideable Type Usage by Membership and Rider Count](Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
+![Rideable Type Usage by Membership and Rider Count](png-files/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
 - Electric bikes dominated usage, followed by classic bikes. Docked bikes had minimal adoption.
 
 ### 7. Trip Start Locations by Longitude
-![Trip Start Locations Members Vs. Casual Riders](Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
+![Trip Start Locations Members Vs. Casual Riders](png-files/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
 - Casual riders began trips near recreational areas, while members preferred residential or commercial starting points.
 
 ---
