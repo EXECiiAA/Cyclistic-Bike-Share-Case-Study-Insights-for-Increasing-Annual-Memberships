@@ -75,7 +75,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 - Casual riders accounted for 64% of all trips, compared to 36% by annual members.
 - Casual riders offer a significant opportunity for conversion to memberships.
 
-![Member Vs Casual Rider Count](https://github.com/EXECiiAA/png-files/blob/main/Member%20Vs%20Casual%20Rider%20Count.png)
+![Member Vs Casual Rider Count](analysis_results/Member%20Vs%20Casual%20Rider%20Count.png)
 
 ---
 
@@ -83,7 +83,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 - Casual riders took longer trips (27.74 minutes on average), reflecting leisure or recreational use.
 - Members averaged 12.03 minutes per trip, consistent with commuting patterns.
 
-![Average Riding Time by Rider Type](https://github.com/EXECiiAA/png-files/blob/main/Average%20Riding%20Time%20by%20Rider%20Type.png)
+![Average Riding Time by Rider Type](analysis_results/Average%20Riding%20Time%20by%20Rideable%20Type.png)
 
 ---
 
@@ -91,7 +91,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 - Both groups showed peak ridership from March to August, with a steep decline during winter months.
 - Casual riders showed a sharper decline in activity during winter, emphasizing seasonal dependence.
 
-![Monthly Rider Counts by Membership Type](https://github.com/EXECiiAA/png-files/blob/main/Monthly%20Rider%20Counts%20by%20Membership%20Type.png)
+![Monthly Rider Counts by Membership Type](analysis_results/Monthly%20Rider%20Counts%20by%20Membership%20Type.png)
 
 ---
 
@@ -99,7 +99,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 - Members had peaks during commuting hours (8 AM and 5 PM), indicating regular workday use.
 - Casual riders were most active midday and on weekends, suggesting leisure-driven use.
 
-![Hourly Rider Counts by Membership Type](https://github.com/EXECiiAA/png-files/blob/main/Hourly%20Rider%20Counts%20by%20Membership%20Type.png)
+![Hourly Rider Counts by Membership Type](analysis_results/Hourly%20Rider%20Counts%20by%20Membership%20Type.png)
 
 ---
 
@@ -107,7 +107,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 - Electric bikes were the most popular choice for both groups, followed by classic bikes.
 - Docked bikes were minimally used and only by casual riders.
 
-![Rideable Type Usage by Membership and Rider Count](https://github.com/EXECiiAA/png-files/blob/main/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
+![Rideable Type Usage by Membership and Rider Count](analysis_results/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
 
 ---
 
@@ -115,7 +115,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 - Casual riders used more unique stations (1,549) compared to members (1,455), reflecting dispersed travel patterns.
 - Higher null rates for `start_station_name` among members may slightly skew station-related insights.
 
-![Station Count by Rider Type](https://github.com/EXECiiAA/png-files/blob/main/Station%20Count%20by%20Rider%20Type.png)
+![Station Count by Rider Type](analysis_results/Station%20Count%20by%20Rider%20Type.png)
 
 ---
 
@@ -124,7 +124,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 - Members started trips near residential and business districts, aligning with commuting behaviors.
 - The higher null rates in member data for `start_station_name` may have reduced the total number of member trips analyzed for this visualization.
 
-![Trip Start Locations Members Vs. Casual Riders](https://github.com/EXECiiAA/png-files/blob/main/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
+![Trip Start Locations Members Vs. Casual Riders](analysis_results/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
 
 ---
 
@@ -141,18 +141,6 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
    - Investigate reasons for low docked bike usage and consider adjustments to make them more attractive.
 6. **Implement Unique IDs for Riders**:
    - Assign unique identifiers to each rider in future datasets to enable analysis of returning customers, customer lifetime value, and rider loyalty trends. This would improve data quality and facilitate more personalized marketing strategies.
-
----
-
-## Visualizations Summary
-Here is a quick reference for all visualizations used in this analysis:
-1. [Member Vs Casual Rider Count](https://github.com/EXECiiAA/png-files/blob/main/Member%20Vs%20Casual%20Rider%20Count.png)
-2. [Average Riding Time by Rider Type](https://github.com/EXECiiAA/png-files/blob/main/Average%20Riding%20Time%20by%20Rider%20Type.png)
-3. [Monthly Rider Counts by Membership Type](https://github.com/EXECiiAA/png-files/blob/main/Monthly%20Rider%20Counts%20by%20Membership%20Type.png)
-4. [Hourly Rider Counts by Membership Type](https://github.com/EXECiiAA/png-files/blob/main/Hourly%20Rider%20Counts%20by%20Membership%20Type.png)
-5. [Station Count by Rider Type](https://github.com/EXECiiAA/png-files/blob/main/Station%20Count%20by%20Rider%20Type.png)
-6. [Rideable Type Usage by Membership and Rider Count](https://github.com/EXECiiAA/png-files/blob/main/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
-7. [Trip Start Locations Members Vs. Casual Riders](https://github.com/EXECiiAA/png-files/blob/main/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
 
 ---
 
