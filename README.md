@@ -105,7 +105,8 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 
 ### Bike Type Preferences
 - Electric bikes were the most popular choice for both groups, followed by classic bikes.
-- Docked bikes had the longest average trip duration but were used only by casual riders.
+- **Docked bikes had the longest average trip duration but were the least used.** This suggests that users who did choose docked bikes likely needed them for extended trips where other bike types were unavailable.
+- Further investigation is needed to determine if docked bikes' long ride durations are due to bike availability, pricing differences, or specific user behaviors.
 
 ![Rideable Type Usage by Membership and Rider Count](analysis_results/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
 
@@ -130,14 +131,25 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 
 ---
 
+## Recommendations
+1. **Target Peak Seasons**  
+2. **Introduce Seasonal Memberships**  
+3. **Promote Electric Bikes**  
+4. **Leverage Recreational Stations**  
+5. **Investigate Docked Bike Appeal**  
+   - Determine if their long trip durations are due to a lack of availability, high cost, or other limiting factors.
+6. **Implement Unique IDs for Riders**  
+
+---
+
 ## Visualizations Summary
-1. [Member Vs Casual Rider Count](analysis_results/Member%20Vs%20Casual%20Rider%20Count.png)
-2. [Average Riding Time by Rider Type](analysis_results/Average%20Riding%20Time%20by%20Rideable%20Type.png)
-3. [Monthly Rider Counts by Membership Type](analysis_results/Monthly%20Rider%20Counts%20by%20Membership%20Type.png)
-4. [Hourly Rider Counts by Membership Type](analysis_results/Hourly%20Rider%20Counts%20by%20Membership%20Type.png)
-5. [Station Count by Rider Type](analysis_results/Station%20Count%20by%20Rider%20Type.png)
-6. [Rideable Type Usage by Membership and Rider Count](analysis_results/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
-7. [Trip Start Locations Members Vs. Casual Riders](analysis_results/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
+1. Member Vs Casual Rider Count  
+2. Average Riding Time by Rider Type  
+3. Monthly Rider Counts by Membership Type  
+4. Hourly Rider Counts by Membership Type  
+5. Station Count by Rider Type  
+6. Rideable Type Usage by Membership and Rider Count  
+7. Trip Start Locations Members Vs. Casual Riders  
 
 ---
 
@@ -154,4 +166,5 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 This case study is part of the **Google Data Analytics Professional Certificate**. The goal was to apply the data analysis process to a real-world scenario, showcasing skills in data cleaning, analysis, visualization, and strategic recommendation.
 
 For more details, view the [original datasets](https://divvy-tripdata.s3.amazonaws.com/index.html) or explore the project repository.
+
 
