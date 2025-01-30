@@ -105,9 +105,11 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 
 ### Bike Type Preferences
 - Electric bikes were the most popular choice for both groups, followed by classic bikes.
-- Docked bikes were minimally used and only by casual riders.
+- Docked bikes had the longest average trip duration but were used only by casual riders.
 
 ![Rideable Type Usage by Membership and Rider Count](analysis_results/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
+
+![Average Riding Time by Rideable Type](analysis_results/Average%20Riding%20Time%20by%20Rideable%20Type.png)
 
 ---
 
@@ -128,33 +130,23 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 
 ---
 
-## Recommendations
-1. **Target Peak Seasons**:
-   - Focus marketing efforts during spring and summer, when casual ridership is highest.
-2. **Introduce Seasonal Memberships**:
-   - Offer flexible memberships tailored to casual riders' preferences, such as weekend or summer-only plans.
-3. **Promote Electric Bikes**:
-   - Highlight the popularity of electric bikes in campaigns to attract both casual and potential members.
-4. **Leverage Recreational Stations**:
-   - Deploy targeted promotions and discounts at popular recreational starting locations.
-5. **Improve Docked Bike Appeal**:
-   - Investigate reasons for low docked bike usage and consider adjustments to make them more attractive.
-6. **Implement Unique IDs for Riders**:
-   - Assign unique identifiers to each rider in future datasets to enable analysis of returning customers, customer lifetime value, and rider loyalty trends. This would improve data quality and facilitate more personalized marketing strategies.
+## Visualizations Summary
+1. [Member Vs Casual Rider Count](analysis_results/Member%20Vs%20Casual%20Rider%20Count.png)
+2. [Average Riding Time by Rider Type](analysis_results/Average%20Riding%20Time%20by%20Rideable%20Type.png)
+3. [Monthly Rider Counts by Membership Type](analysis_results/Monthly%20Rider%20Counts%20by%20Membership%20Type.png)
+4. [Hourly Rider Counts by Membership Type](analysis_results/Hourly%20Rider%20Counts%20by%20Membership%20Type.png)
+5. [Station Count by Rider Type](analysis_results/Station%20Count%20by%20Rider%20Type.png)
+6. [Rideable Type Usage by Membership and Rider Count](analysis_results/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
+7. [Trip Start Locations Members Vs. Casual Riders](analysis_results/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
 
 ---
 
 ## Next Steps
-1. **Conduct Surveys**:
-   - Gather insights directly from casual riders to understand barriers to membership adoption.
-2. **Run A/B Testing**:
-   - Test the effectiveness of promotional offers like seasonal memberships or discounts on electric bike rentals.
-3. **Enhance Marketing at Hotspot Locations**:
-   - Focus advertising efforts on recreational stations frequented by casual riders.
-4. **Analyze Membership Retention**:
-   - Evaluate strategies to retain new members and convert occasional users into long-term members.
-5. **Enhance Data Collection Practices**:
-   - Work with Cyclistic’s data collection team to implement custom unique IDs for riders in future datasets. This would provide deeper insights into customer retention and allow for better-targeted marketing campaigns for returning customers.
+1. **Conduct Surveys**  
+2. **Run A/B Testing**  
+3. **Enhance Marketing at Hotspot Locations**  
+4. **Analyze Membership Retention**  
+5. **Enhance Data Collection Practices**  
 
 ---
 
@@ -162,3 +154,4 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 This case study is part of the **Google Data Analytics Professional Certificate**. The goal was to apply the data analysis process to a real-world scenario, showcasing skills in data cleaning, analysis, visualization, and strategic recommendation.
 
 For more details, view the [original datasets](https://divvy-tripdata.s3.amazonaws.com/index.html) or explore the project repository.
+
