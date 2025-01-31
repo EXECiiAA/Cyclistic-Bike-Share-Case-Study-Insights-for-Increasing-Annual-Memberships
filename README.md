@@ -145,7 +145,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 4. Hourly Rider Counts by Membership Type  
 5. Station Count by Rider Type  
 6. Rideable Type Usage by Membership and Rider Count  
-7.Average Riding Time by Rideable Type  
+7. Average Riding Time by Rideable Type  
 8. Trip Start Locations Members Vs. Casual Riders   
 
 ---
