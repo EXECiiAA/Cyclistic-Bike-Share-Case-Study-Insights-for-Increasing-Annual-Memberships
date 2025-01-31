@@ -85,7 +85,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 - Casual riders took longer trips (27.74 minutes on average), reflecting leisure or recreational use.
 - Members averaged 12.03 minutes per trip, consistent with commuting patterns.
 
-![Average Riding Time by Rider Type](analysis_results/Average%20Riding%20Time%20by%20Rideable%20Type.png)
+![Average Riding Time by Rider Type](analysis_results/Average%20Riding%20Time%20by%20Rider%20Type.png)
 
 ---
 
@@ -108,7 +108,6 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 ### Bike Type Preferences
 - Electric bikes were the most popular choice for both groups, followed by classic bikes.
 - **Docked bikes had the longest average trip duration but were the least used.** This suggests that users who did choose docked bikes likely needed them for extended trips where other bike types were unavailable.
-- Further investigation is needed to determine if docked bikes' long ride durations are due to bike availability, pricing differences, or specific user behaviors.
 
 ![Rideable Type Usage by Membership and Rider Count](analysis_results/Rideable%20type%20Usage%20by%20Membership%20and%20Rider%20Count.png)
 
@@ -127,7 +126,6 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 ### Trip Start Locations
 - Casual riders frequently began trips at recreational hotspots such as parks, beaches, and museums.
 - Members started trips near residential and business districts, aligning with commuting behaviors.
-- The higher null rates in member data for `start_station_name` may have reduced the total number of member trips analyzed for this visualization.
 
 ![Trip Start Locations Members Vs. Casual Riders](analysis_results/Trip%20Start%20Locations%20Members%20Vs.%20Casual%20Riders.png)
 
@@ -139,7 +137,6 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 3. **Promote Electric Bikes**  
 4. **Leverage Recreational Stations**  
 5. **Investigate Docked Bike Appeal**  
-   - Determine if their long trip durations are due to a lack of availability, high cost, or other limiting factors.
 6. **Implement Unique IDs for Riders**  
 
 ---
@@ -152,6 +149,7 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 5. Station Count by Rider Type  
 6. Rideable Type Usage by Membership and Rider Count  
 7. Trip Start Locations Members Vs. Casual Riders  
+8. Average Riding Time by Rideable Type  
 
 ---
 
@@ -168,5 +166,4 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 This case study is part of the **Google Data Analytics Professional Certificate**. The goal was to apply the data analysis process to a real-world scenario, showcasing skills in data cleaning, analysis, visualization, and strategic recommendation.
 
 For more details, view the [original datasets](https://divvy-tripdata.s3.amazonaws.com/index.html) or explore the project repository.
-
 
