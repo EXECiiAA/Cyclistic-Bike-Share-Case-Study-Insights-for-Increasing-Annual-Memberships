@@ -1,6 +1,6 @@
 # Cyclistic Bike-Share Analysis: Case Study
 
-![Cyclistic Logo](analysis_results/Cyclistic%20Bike%20Share%20Logo.png)
+![Cyclistic Logo](https://github.com/EXECiiAA/png-files/blob/main/Cyclistic%20Bike%20Share%20Logo.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
