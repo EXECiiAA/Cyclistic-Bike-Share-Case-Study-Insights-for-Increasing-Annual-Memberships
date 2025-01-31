@@ -1,6 +1,6 @@
 # Cyclistic Bike-Share Analysis: Case Study
 
-![Cyclistic Logo](https://github.com/EXECiiAA/png-files/blob/main/Cyclistic%20Bike%20Share%20Logo.png)
+![Cyclistic Logo](analysis_results/Cyclistic%20Bike%20Share%20Logo.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -62,13 +62,10 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 ### Steps Taken:
 1. **Combined 12 monthly datasets** into a single dataset for streamlined analysis.
 2. Removed duplicates and filtered out invalid entries (e.g., negative trip durations).
-3. Created new columns:
-   - `ride_length`: Trip duration calculated as the difference between `ended_at` and `started_at`.
-   - `day_of_week`: Extracted from the `started_at` timestamp to analyze usage trends by weekday.
-4. Addressed null values:
+3. Addressed null values:
    - Rows with null `start_station_name` were removed for station-based visualizations, as their inclusion could lead to inaccurate insights.
    - The null rate for `start_station_name` was much higher for members (549,587 rows) compared to casual riders (326,129 rows), which may impact certain visualizations, particularly those involving station usage or trip start locations.
-5. Current datasets lack unique IDs for individual riders, which limits the ability to analyze returning customers or track long-term usage trends. A suggestion for improvement is to assign **custom unique IDs** to each rider in future datasets. This would allow for better customer segmentation and analysis of customer retention.
+4. Current datasets lack unique IDs for individual riders, which limits the ability to analyze returning customers or track long-term usage trends. A suggestion for improvement is to assign **custom unique IDs** to each rider in future datasets. This would allow for better customer segmentation and analysis of customer retention.
 
 ---
 
@@ -148,8 +145,8 @@ Data cleaning was performed using **SQL** and **R** to ensure accuracy and consi
 4. Hourly Rider Counts by Membership Type  
 5. Station Count by Rider Type  
 6. Rideable Type Usage by Membership and Rider Count  
-7. Average Riding Time by Rideable Type 
-8. Trip Start Locations Members Vs. Casual Riders  
+7.Average Riding Time by Rideable Type  
+8. Trip Start Locations Members Vs. Casual Riders   
 
 ---
 
